@@ -1,0 +1,936 @@
+
+/*****************************responsive section******************************/
+
+
+@media (max-width: 1300px){
+
+	.home .home_content .text-2{
+		color: red;
+	}
+
+	.home .max_width{
+		margin-left: 0px;
+	}
+}
+
+
+
+@media (max-width: 1104px){
+
+	/* Home code */
+	.home .home_content .text-1{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	
+	.home .home_content .text-{
+		font-size: 50px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 15px;
+		margin-bottom: 35px;
+	}
+
+	/* .home .home_content .text-2{
+		color: green;
+	} */
+	/* Home code */
+	
+	/* about code */
+	.about .about_content .right .about-my-name{
+		font-size: 22px;
+	}
+
+	.about .about_content .right p{
+		text-align: justify;
+		font-size: 17px;
+	}
+
+	.about .about_content .left img{
+		height: 350px;
+		width: 350px;
+	}
+	/* about code */
+
+	.service .box_service p{
+		font-size: 14px;
+	}
+}
+
+
+
+/*************************@media (max-width: 991px)*******************************/
+
+
+@media (max-width: 991px){
+
+	/* .home .home_content .text-2{
+		color: green;
+	} */
+
+	.max_width{
+		padding: 0 50px;
+	 }
+
+	 .home .home_content .text-1{
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	
+	.home .home_content .text-{
+		font-size: 50px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 15px;
+		margin-bottom: 35px;
+	}
+
+	 
+	.about .about_content .right .about-my-name{
+		font-size: 22px;
+	}
+
+	.about .about_content .right p{
+		font-size: 16px;
+	}
+
+	.about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	#scroll {
+		right:50px;
+		bottom:50px;
+	}
+
+}
+
+
+
+
+/****************************@media (max-width: 947px)***************************/
+
+
+@media (max-width: 947px){
+
+	/* .home .home_content .text-2{
+		color: orange;
+	} */
+
+	.max_width{
+       padding: 0 1px;
+	}
+
+	.menu-btn{
+		display: block;
+		z-index: 999;
+	}
+
+	.menu-btn i.active:before{
+		content: "\f00d";
+	}
+
+	.navbar .menu{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: -100%;
+		left: 0;
+		background: #000;
+		text-align: center;
+		padding-top: 150px;
+		transition: all 0.3s ease;
+	}
+
+	.navbar .menu.active{
+		top: 0;
+	}
+
+	.navbar .menu li{
+		display: block;
+	}
+
+	.navbar .menu li a{
+		display: inline-block;
+		margin: 20px 0;
+		font-size: 25px;
+	}
+
+	.home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 20px;
+		margin-left: 70px;
+	}
+
+	.home .home_content .text-{
+		font-size: 40px;
+		margin-left: 70px;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 16px;
+		margin-left: 71px;
+	}
+
+	.home .home_content .btn-home{
+		margin-left: 70px;
+	}
+
+	.max_width{
+		max-width: 600px;
+	}
+
+	.about .about_content .column{
+		width: 100%;
+	}
+
+	.about .about_content .left{
+		display: flex;
+		justify-content: center;
+		margin: 0 auto 60px;
+	}
+
+	.about .about_content .right{
+		flex: 100%;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 25px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	
+	.about .about_content .right a{
+		font-size: 18px;
+		margin-top: 20px;
+        margin-left: 190px;
+	}
+
+	#scroll {
+		right: 40px;
+		bottom:50px;
+	}
+}
+
+
+
+/***************************@media (max-width: 690px)*************************/
+
+
+@media (max-width: 690px){
+
+	/* .home .home_content .text-2{
+		color: blue;
+	} */
+
+	.max_width{
+		padding: 0 23px;
+	}
+
+    
+	.home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 20px;
+		margin-left: 45px;
+	}
+
+	.home .home_content .text-{
+		font-size: 40px;
+		margin-left: 45px;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 15px;
+		margin-left: 45px;
+	}
+
+	.home .home_content .btn-home{
+		margin-left: 45px;
+	}
+
+    .about .about_content .right .about-my-name{
+		font-size: 22px;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 14px;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 20px;
+        margin-left: 210px;
+	}
+
+	.service .service_content{
+		padding: 0;
+	}
+
+	.work .work_head:before{
+		width: 100px;
+	}
+
+    .contact-info{
+        height: auto;
+    }
+
+	#scroll {
+		right:30px;
+		bottom:50px;
+	}
+
+
+
+}
+
+
+
+/**************************@media (max-width: 500px)**********************/
+
+
+@media (max-width: 500px){
+
+    
+	.home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 15px;
+        margin-left: auto;
+	}
+
+	.home .home_content .text-{
+		font-size: 35px;
+        margin-left: auto;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 14px;
+        margin-left: auto;
+	}
+
+	.home .home_content .btn-home{
+        margin-left: auto;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 10px;
+        line-height: 1.7;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 13px;
+		padding-top: 10px;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+        margin-left: 160px;
+	}
+
+	.about .about_content .left img{
+		height: 300px;
+		width: 300px;
+	}
+      
+    .skills {
+        width: 400px;
+    }
+	
+
+	.service .service_title{
+		font-size: 35px;
+	}
+
+	.service .service_title:before{
+		width: 110px;
+	}
+	
+	.service .service_content{
+		padding: 0;
+	}
+
+	.work .work_head{
+		font-size: 35px;
+	}
+
+	.work .work_head:before{
+		width: 80px;
+	}
+		
+	.contact .contact_text{
+		font-size: 35px;
+		letter-spacing: 1px;
+	}
+
+	footer span{
+		color: #fff;
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+	
+	footer span a{
+		color: #fff;
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	#scroll {
+		right:20px;
+		bottom:50px;
+	}
+
+}
+
+
+/*************************@media (max-width: 400px)*************************/
+
+
+@media (max-width: 400px){
+
+	.navbar .logo a{
+		font-size: 20px;
+	}
+
+    .home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 15px;
+        margin-left: auto;
+	}
+
+	.home .home_content .text-{
+		font-size: 35px;
+        margin-left: auto;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 12px;
+        margin-left: auto;
+	}
+
+	.home .home_content .btn-home{
+        margin-left: auto;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 10px;
+        line-height: 1.7;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 11px;
+		padding-top: 10px;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+        margin-left: 110px;
+	}
+      
+    .skills {
+        width: 350px;
+    }
+
+    .skills_text{
+        font-size: 30px;
+    }
+
+	.service .service_title{
+		font-size: 35px;
+	}
+
+	.service .service_title:before{
+		width: 110px;
+	}
+
+	.service .service_content{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+		grid-gap: 40px;
+		padding: 0px;
+		margin-top: 60px;
+		cursor: pointer;
+	}
+
+	.service .box_service i{
+		font-size: 22px;
+	}
+
+	.service .box_service .box-text{
+		font-size: 17px;
+		letter-spacing: 2px;
+	}
+
+	.service .box_service p{
+		font-size: 14px;
+	}
+
+
+	.work .work_head{
+		font-size: 35px;
+	}
+
+	.work .work_head:before{
+		width: 80px;
+	}
+
+	.work .work_section .box{
+		width: calc(350px - 30px);
+		height: calc(247px - 30px);
+	}
+
+
+	.contact .contact_text{
+		font-size: 35px;
+		letter-spacing: 1px;
+	}
+
+	
+	footer span{
+		color: #fff;
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+	
+	footer span a{
+		color: #fff;
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
+
+	#scroll {
+		right:20px;
+		bottom:60px;
+		width:30px;
+		height:30px;
+	}
+
+}
+
+
+
+/***************************@media (max-width: 364px)*************************/
+
+
+@media (max-width: 364px){
+
+    
+    .home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 15px;
+        margin-left: auto;
+	}
+
+	.home .home_content .text-{
+		font-size: 35px;
+        margin-left: auto;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 10px;
+        margin-left: auto;
+	}
+
+	.home .home_content .btn-home{
+        margin-left: auto;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 14px;
+		font-weight: 600;
+		margin-bottom: 10px;
+        line-height: 1.7;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 9px;
+        font-weight: 500;
+		padding-top: 10px;
+        line-height: 2;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+        margin-left: 90px;
+	}
+      
+    .skills {
+        width: 300px;
+    }
+
+    .skills_text{
+        font-size: 30px;
+    }
+		
+	.service .service_title{
+		font-size: 35px;
+		letter-spacing: 1px;
+	}
+
+	.service .service_content{
+		width: 100%;
+		padding: 0;
+	}
+
+	.service .box_service{
+		background:#1E1E1E;
+		padding: 30px;
+		color: #fff;
+		text-align: center;
+		border-radius: 10px;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.2);
+		position: relative;
+		overflow: hidden;
+		transition: all 0.3s ease;
+	}
+
+
+	.service .box_service .box-text{
+		font-size: 17px;
+		letter-spacing: 2px;
+	}
+
+	.service .box_service p{
+		font-size: 13px;
+	}
+
+
+	.work .work_head{
+		font-size: 35px;
+	}
+
+	
+	.work .work_section .box{
+		width: calc(350px - 30px);
+		height: calc(218px - 30px);
+		background-color: red;
+	}
+
+		
+	.contact .contact_text{
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+
+	.contact-form{
+		max-width: 600px;
+	}
+
+	footer .social-icon .media-icon{
+		margin: 0px 15px;
+	}
+
+	
+	footer span{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+	
+	footer span a{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+
+	#scroll {
+		right:20px;
+		bottom:60px;
+		width:30px;
+		height:30px;
+	}
+
+}
+
+
+
+/************************media (max-width: 325px)**************************/
+
+
+@media (max-width: 325px){
+
+    .home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 15px;
+        margin-left: auto;
+	}
+
+	.home .home_content .text-{
+		font-size: 30px;
+        margin-left: auto;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 10px;
+        margin-left: auto;
+	}
+
+	.home .home_content .btn-home{
+        margin-left: auto;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 16px;
+		font-weight: 600;
+		margin-bottom: 10px;
+        line-height: 1.7;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 9px;
+        font-weight: 500;
+		padding-top: 10px;
+        line-height: 2;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+        margin-left: 70px;
+	}
+      
+    .skills {
+        width: 280px;
+    }
+
+    .skills_text{
+        font-size: 30px;
+    }
+	
+
+	.service .service_title{
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+
+		
+	.service .box_service .box-text{
+		font-size: 16px;
+		letter-spacing: 1px;
+	}
+
+
+	.service .box_service p{
+		font-size: 14px;
+	}
+		
+	.service .service_content{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+		padding: 0px;
+	}
+
+	.service .box_service{
+		background:#1E1E1E;
+		padding: 30px;
+		color: #fff;
+		text-align: center;
+		border-radius: 10px;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.2);
+		position: relative;
+		overflow: hidden;
+		transition: all 0.3s ease;
+	}
+
+	.work .work_section .box{
+		width: calc(350px - 30px);
+		height: calc(200px - 30px);
+	}
+
+	.contact .contact_text{
+		font-size: 28px;
+	}
+
+	.contact-form{
+		max-width: 550px;
+	}
+
+	
+	footer span{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+	
+	footer span a{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+
+	#scroll {
+		right:20px;
+		bottom:60px;
+		width:30px;
+		height:30px;
+	}
+
+}
+
+
+
+/************************media (max-width: 300px)*************************/
+
+
+@media (max-width: 300px){
+
+    .home .home_content .text-1{
+		font-size: 14px;
+		margin-bottom: 15px;
+        margin-left: auto;
+	}
+
+	.home .home_content .text-{
+		font-size: 26px;
+        margin-left: auto;
+        line-height: 1.4;
+	}
+	
+	.home .home_content .text-3{
+		font-size: 11px;
+        margin-left: auto;
+	}
+
+	.home .home_content .btn-home{
+        margin-left: auto;
+	}
+
+	.about .about_content .right .about-my-name{
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 10px;
+        line-height: 1.7;
+	}
+	
+	.about .about_content .right p{
+		text-align: center;
+		font-size: 8px;
+        font-weight: 500;
+		padding-top: 10px;
+        line-height: 2;
+	}
+
+    .about .about_content .right a{
+		font-size: 18px;
+		margin-top: 10px;
+        margin-left: 60px;
+	}
+      
+    .skills {
+        width: 250px;
+    }
+
+    .skills_text{
+        font-size: 30px;
+    }
+	
+	.service .service_content{
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+		padding: 0px;
+	}
+
+	.service .box_service{
+		background:#1E1E1E;
+		padding: 10px;
+		color: #fff;
+		text-align: center;
+		border-radius: 10px;
+		box-shadow: 0 19px 38px rgba(0,0,0,0.3), 0 15px 12px rgba(0,0,0,0.2);
+		position: relative;
+		overflow: hidden;
+		transition: all 0.3s ease;
+	}
+		
+	.service .box_service i{
+
+		font-size: 25px;
+	}
+
+	.service .box_service .box-text{
+		margin-bottom: 1rem;
+		font-size: 16px;
+		color: #fff;
+		letter-spacing: 2px;
+		font-family: 'Poppins', sans-sarif;
+	}
+
+	.service .box_service p{
+		font-family: 'Poppins', sans-sarif;
+		line-height: 1.6;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+		color: #fff;
+		font-size: 12px;
+		font-weight: 300;
+	}
+
+	.work .work_section .box{
+		width: calc(350px - 30px);
+		height: calc(180px - 30px);
+	}
+
+	.contact-form{
+		max-width: 500px;
+	}
+	
+	footer span{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+	
+	footer span a{
+		color: #fff;
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+
+	#scroll {
+		right:20px;
+		bottom:60px;
+		width:30px;
+		height:30px;
+	}
+}
+
+
+
+/******************************Responsive Complete*****************************/
